@@ -13,5 +13,6 @@ class Eratos
 end
 
 if $0 == __FILE__
-
+  num = ARGV[0].to_i
+  puts Eratos.primes(num).join(', ')
 end
